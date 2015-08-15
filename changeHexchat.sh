@@ -1,6 +1,6 @@
 #Change Hexchat Colours from Solarized Light to Solarized Dark and vice-versa
 
-if grep -q "Dark" ~/.config/hexchat/colors.conf
+if grep -q "color_17 = 9393 a1a1 a1a1" ~/.config/hexchat/colors.conf
 then
   unzip -o hexchatColours/Solarized_Light.hct -d ~/.config/hexchat
   echo "Was Dark"

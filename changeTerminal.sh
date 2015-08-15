@@ -1,6 +1,6 @@
 #Change Terminal Colours from Solarized Light to Solarized Dark and vice-versa
 
-if grep -q "Dark" ~/.config/xfce4/terminal/terminalrc
+if grep -q "ColorCursor=#0f0f49499999" ~/.config/xfce4/terminal/terminalrc
 then
   cp terminalColours/light/terminalrc ~/.config/xfce4/terminal/terminalrc
   echo "Was Dark"
